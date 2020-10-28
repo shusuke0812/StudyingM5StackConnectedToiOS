@@ -44,6 +44,9 @@ extension MainViewController: UITableViewDelegate {
         }
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // セル選択を解除
+        tableView.deselectRow(at: indexPath, animated: true)
+        // 各セルをタップした時の処理
         let sectionRowType: MainSectionRowType = self.viewModel.sections[indexPath.row].rows[indexPath.row]
         switch sectionRowType {
         case .bluetooth:
