@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         self.viewModel = MainViewModel()
         self.setBaseView()
+        self.setNavigationItem()
     }
 }
 
@@ -27,6 +28,9 @@ extension MainViewController {
         self.baseView.tableView.tableFooterView = UIView()
         self.baseView.tableView.delegate = self
         self.baseView.tableView.dataSource = self.viewModel
+    }
+    private func setNavigationItem() {
+        self.navigationItem.title = "M5Stack通信方法一覧"
     }
 }
 
