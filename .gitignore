@@ -109,7 +109,7 @@ fastlane/test_output
 iOSInjectionProject/
 
 ### Editor ###
-.swp
-.vscode/*
+*.swp
+*.vscode/*
 
 #EOF
