@@ -8,13 +8,17 @@
 import UIKit
 
 class MainBaseView: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    @IBOutlet weak var tableView: UITableView!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        self.registerTableViewCell()
     }
-    */
+}
 
+extension MainBaseView {
+    private func registerTableViewCell() {
+        let nib = UINib(nibName: "MainTableViewCell", bundle: nil)
+        self.tableView.register(nib, forCellReuseIdentifier: "MainTableViewCell")
+    }
 }

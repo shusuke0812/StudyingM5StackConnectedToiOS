@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C03E5DE254956C9001680A1 /* MainBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C03E5DD254956C9001680A1 /* MainBaseView.swift */; };
+		9C03E5E325495776001680A1 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C03E5E125495776001680A1 /* MainTableViewCell.swift */; };
+		9C03E5E425495776001680A1 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C03E5E225495776001680A1 /* MainTableViewCell.xib */; };
 		9C828CCB254948EC00CFA035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C828CCA254948EC00CFA035 /* AppDelegate.swift */; };
 		9C828CCD254948EC00CFA035 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C828CCC254948EC00CFA035 /* SceneDelegate.swift */; };
 		9C828CCF254948EC00CFA035 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C828CCE254948EC00CFA035 /* MainViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C03E5DD254956C9001680A1 /* MainBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBaseView.swift; sourceTree = "<group>"; };
+		9C03E5E125495776001680A1 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		9C03E5E225495776001680A1 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		9C828CC7254948EC00CFA035 /* M5StackConnectedToiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M5StackConnectedToiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C828CCA254948EC00CFA035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C828CCC254948EC00CFA035 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C03E5D92549506E001680A1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9C03E5DA2549507D001680A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C03E5DC254950AB001680A1 /* UITableViewCell */,
+				9C03E5DB254950A3001680A1 /* BaseView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C03E5DB254950A3001680A1 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				9C03E5DD254956C9001680A1 /* MainBaseView.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		9C03E5DC254950AB001680A1 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9C03E5E125495776001680A1 /* MainTableViewCell.swift */,
+				9C03E5E225495776001680A1 /* MainTableViewCell.xib */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
 		9C828CBE254948EC00CFA035 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +95,8 @@
 		9C828CC9254948EC00CFA035 /* M5StackConnectedToiOS */ = {
 			isa = PBXGroup;
 			children = (
+				9C03E5DA2549507D001680A1 /* View */,
+				9C03E5D92549506E001680A1 /* ViewModel */,
 				9C828CDF25494A6C00CFA035 /* ViewController */,
 				9C828CE025494A7500CFA035 /* Storyboard */,
 				9C828CCC254948EC00CFA035 /* SceneDelegate.swift */,
@@ -142,6 +183,7 @@
 			files = (
 				9C828CD7254948EE00CFA035 /* LaunchScreen.storyboard in Resources */,
 				9C828CD4254948EE00CFA035 /* Assets.xcassets in Resources */,
+				9C03E5E425495776001680A1 /* MainTableViewCell.xib in Resources */,
 				9C828CD2254948EC00CFA035 /* MainViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,9 +195,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C03E5DE254956C9001680A1 /* MainBaseView.swift in Sources */,
 				9C828CCF254948EC00CFA035 /* MainViewController.swift in Sources */,
 				9C828CCB254948EC00CFA035 /* AppDelegate.swift in Sources */,
 				9C828CCD254948EC00CFA035 /* SceneDelegate.swift in Sources */,
+				9C03E5E325495776001680A1 /* MainTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
