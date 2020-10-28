@@ -10,6 +10,7 @@
 		9C03E5DE254956C9001680A1 /* MainBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C03E5DD254956C9001680A1 /* MainBaseView.swift */; };
 		9C03E5E325495776001680A1 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C03E5E125495776001680A1 /* MainTableViewCell.swift */; };
 		9C03E5E425495776001680A1 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C03E5E225495776001680A1 /* MainTableViewCell.xib */; };
+		9C03E5E725495CDF001680A1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C03E5E625495CDE001680A1 /* MainViewModel.swift */; };
 		9C828CCB254948EC00CFA035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C828CCA254948EC00CFA035 /* AppDelegate.swift */; };
 		9C828CCD254948EC00CFA035 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C828CCC254948EC00CFA035 /* SceneDelegate.swift */; };
 		9C828CCF254948EC00CFA035 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C828CCE254948EC00CFA035 /* MainViewController.swift */; };
@@ -22,6 +23,7 @@
 		9C03E5DD254956C9001680A1 /* MainBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBaseView.swift; sourceTree = "<group>"; };
 		9C03E5E125495776001680A1 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		9C03E5E225495776001680A1 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		9C03E5E625495CDE001680A1 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		9C828CC7254948EC00CFA035 /* M5StackConnectedToiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M5StackConnectedToiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C828CCA254948EC00CFA035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C828CCC254948EC00CFA035 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		9C03E5D92549506E001680A1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9C03E5E625495CDE001680A1 /* MainViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				9C828CCB254948EC00CFA035 /* AppDelegate.swift in Sources */,
 				9C828CCD254948EC00CFA035 /* SceneDelegate.swift in Sources */,
 				9C03E5E325495776001680A1 /* MainTableViewCell.swift in Sources */,
+				9C03E5E725495CDF001680A1 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
