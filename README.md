@@ -21,9 +21,10 @@ M5StackとiOSアプリの連携サンプル
 - 特になし
 
 ### 機能一覧
-- WiFi
-- BluetoothLE
-- NFC
+- WiFiアクセスポイント設定
+- iPhone/BluetoothLE通信
+- iPhone/NFC通信
+- M5Stack/サーバー通信（Firebase）
 
 ## 参考文献
 - 
