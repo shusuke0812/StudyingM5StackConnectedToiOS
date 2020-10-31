@@ -18,6 +18,9 @@
 		9C828CD4254948EE00CFA035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C828CD3254948EE00CFA035 /* Assets.xcassets */; };
 		9C828CD7254948EE00CFA035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C828CD5254948EE00CFA035 /* LaunchScreen.storyboard */; };
 		9C86500625497DA600725889 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C86500525497DA600725889 /* UIColor+Extension.swift */; };
+		9C8AD911254D910800D1DC8C /* BleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8AD910254D910800D1DC8C /* BleViewController.swift */; };
+		9C8AD914254D911800D1DC8C /* BleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8AD913254D911800D1DC8C /* BleViewController.storyboard */; };
+		9C8AD917254D921A00D1DC8C /* BleBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8AD916254D921A00D1DC8C /* BleBaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		9C828CD6254948EE00CFA035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C828CD8254948EE00CFA035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C86500525497DA600725889 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		9C8AD910254D910800D1DC8C /* BleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleViewController.swift; sourceTree = "<group>"; };
+		9C8AD913254D911800D1DC8C /* BleViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BleViewController.storyboard; sourceTree = "<group>"; };
+		9C8AD916254D921A00D1DC8C /* BleBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleBaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				9C03E5DD254956C9001680A1 /* MainBaseView.swift */,
+				9C8AD916254D921A00D1DC8C /* BleBaseView.swift */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
@@ -118,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				9C828CCE254948EC00CFA035 /* MainViewController.swift */,
+				9C8AD910254D910800D1DC8C /* BleViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -126,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				9C828CD0254948EC00CFA035 /* MainViewController.storyboard */,
+				9C8AD913254D911800D1DC8C /* BleViewController.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -199,6 +208,7 @@
 				9C828CD4254948EE00CFA035 /* Assets.xcassets in Resources */,
 				9C03E5E425495776001680A1 /* MainTableViewCell.xib in Resources */,
 				9C828CD2254948EC00CFA035 /* MainViewController.storyboard in Resources */,
+				9C8AD914254D911800D1DC8C /* BleViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,9 +223,11 @@
 				9C03E5DE254956C9001680A1 /* MainBaseView.swift in Sources */,
 				9C828CCF254948EC00CFA035 /* MainViewController.swift in Sources */,
 				9C828CCB254948EC00CFA035 /* AppDelegate.swift in Sources */,
+				9C8AD911254D910800D1DC8C /* BleViewController.swift in Sources */,
 				9C828CCD254948EC00CFA035 /* SceneDelegate.swift in Sources */,
 				9C03E5E325495776001680A1 /* MainTableViewCell.swift in Sources */,
 				9C03E5E725495CDF001680A1 /* MainViewModel.swift in Sources */,
+				9C8AD917254D921A00D1DC8C /* BleBaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
