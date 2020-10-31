@@ -31,6 +31,7 @@ extension MainViewController {
     }
     private func setNavigationItem() {
         self.navigationItem.title = "M5Stack通信方法一覧"
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "戻る", style: .plain, target: nil, action: nil)
     }
 }
 
@@ -51,6 +52,7 @@ extension MainViewController: UITableViewDelegate {
         switch sectionRowType {
         case .bluetooth:
             print("DEBUG: BluetoothLE通信セルがタップされました")
+            self.transitionBlePage()
         case .wifi:
             print("DEBUG: WiFiアクセスポイント設定セルがタップされました")
         case .nfc:
@@ -58,5 +60,14 @@ extension MainViewController: UITableViewDelegate {
         case .firebase:
             print("DEBUG: サーバー通信（Firebase）セルがタップされました")
         }
+    }
+}
+
+extension MainViewController {
+    /// BluetoothLE通信ページへ遷移
+    private func transitionBlePage() {
+        let s = UIStoryboard(name: "BleViewController", bundle: nil)
+        let vc = s.instantiateInitialViewController() as! BleViewController
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
