@@ -27,7 +27,9 @@ M5StackとiOSアプリの連携サンプル
 - M5Stack/サーバー通信（Firebase）
 
 ## 参考文献
-- 
+- 堤修一、松村礼央、iOS×BLE Core Bluetoothプログラミング、ソシム、2015年11月13日 初版第2刷発行
+- [Qiita記事：M5StackとiOS端末と通信してみた](https://qiita.com/From_F/items/66099d488a324ad38d40)
+
 
 
 
