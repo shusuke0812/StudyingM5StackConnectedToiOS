@@ -7,7 +7,7 @@ M5StackとiOSアプリの連携サンプル
 - pod version 1.9.1
 - MacOS Catalina version 10.15.4
 - VSCode version 1.48.2
-	- VSCodeはこのバージョンでないとSerial monitorが開かない
+	- VSCodeはこのバージョンでないとArduino Serial monitorが開かない
 
 ## 概要
 ### 背景と目的
